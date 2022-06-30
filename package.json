@@ -1,21 +1,16 @@
 {
-  "name": "root",
+  "name": "@monorepostechtask/root",
   "private": true,
   "devDependencies": {
     "craco": "0.0.3",
     "lerna": "^5.1.4"
   },
   "scripts": {
-    "start": "lerna exec --scope @monorepos_tech_task/webapp -- yarn start"
+    "start": "lerna exec --scope @monorepostechtask/webapp -- yarn start"
   },
   "workspaces": {
     "packages": [
       "packages/**"
     ]
-  },
-  "dependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "web-vitals": "2.1.4"
   }
 }
