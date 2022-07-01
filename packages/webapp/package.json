@@ -1,5 +1,5 @@
 {
-  "name": "@monorepostechtask/webapp",
+  "name": "@monorepos_tech_task/webapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "typescript": "4.7.4",
     "web-vitals": "2.1.4",
-    "@mnorepostechtask/library": "0.1.0"
+    "@monopos_tech_task/library": "0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

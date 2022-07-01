@@ -2182,6 +2182,41 @@
     "npmlog" "^6.0.2"
     "write-file-atomic" "^3.0.3"
 
+"@mnorepostechtask/library@0.1.0", "@mnorepostechtask/library@file:/Users/kirstielangan/cs_projects/monorepos_tech_task/packages/library":
+  "resolved" "file:packages/library"
+  "version" "0.1.0"
+  dependencies:
+    "@testing-library/jest-dom" "5.16.4"
+    "@testing-library/react" "13.3.0"
+    "@testing-library/user-event" "13.5.0"
+    "@types/jest" "27.5.2"
+    "@types/node" "16.11.42"
+    "@types/react" "18.0.14"
+    "@types/react-dom" "18.0.5"
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
+    "react-scripts" "5.0.1"
+    "typescript" "4.7.4"
+    "web-vitals" "2.1.4"
+
+"@monorepostechtask/webapp@file:/Users/kirstielangan/cs_projects/monorepos_tech_task/packages/webapp":
+  "resolved" "file:packages/webapp"
+  "version" "0.1.0"
+  dependencies:
+    "@mnorepostechtask/library" "0.1.0"
+    "@testing-library/jest-dom" "5.16.4"
+    "@testing-library/react" "13.3.0"
+    "@testing-library/user-event" "13.5.0"
+    "@types/jest" "27.5.2"
+    "@types/node" "16.11.42"
+    "@types/react" "18.0.14"
+    "@types/react-dom" "18.0.5"
+    "react" "^18.2.0"
+    "react-dom" "^18.2.0"
+    "react-scripts" "5.0.1"
+    "typescript" "4.7.4"
+    "web-vitals" "2.1.4"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -13104,15 +13139,20 @@
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.4.1.tgz"
   "version" "0.4.1"
 
-"type-fest@^0.6.0", "type-fest@>=0.17.0 <3.0.0":
-  "integrity" "sha512-hQnTQkFjL5ik6HF2fTAM8ycbr94UbQXK364wF930VHb0dfBJ5JBP8qwrR8TaK9zwUEk7meruo2JAUDMwvuxd/w=="
-  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-2.14.0.tgz"
-  "version" "2.14.0"
+"type-fest@^0.6.0":
+  "integrity" "sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.6.0.tgz"
+  "version" "0.6.0"
 
 "type-fest@^0.8.1":
   "integrity" "sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA=="
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz"
   "version" "0.8.1"
+
+"type-fest@>=0.17.0 <3.0.0":
+  "integrity" "sha512-hQnTQkFjL5ik6HF2fTAM8ycbr94UbQXK364wF930VHb0dfBJ5JBP8qwrR8TaK9zwUEk7meruo2JAUDMwvuxd/w=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-2.14.0.tgz"
+  "version" "2.14.0"
 
 "type-is@~1.6.18":
   "integrity" "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g=="
@@ -13444,24 +13484,6 @@
   "integrity" "sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg=="
   "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz"
   "version" "2.1.4"
-
-"webapp@file:/Users/kirstielangan/cs_projects/monorepos_tech_task/packages/webapp":
-  "resolved" "file:packages/webapp"
-  "version" "0.1.0"
-  dependencies:
-    "@testing-library/jest-dom" "5.16.4"
-    "@testing-library/react" "13.3.0"
-    "@testing-library/user-event" "13.5.0"
-    "@types/jest" "27.5.2"
-    "@types/node" "16.11.42"
-    "@types/react" "18.0.14"
-    "@types/react-dom" "18.0.5"
-    "cra-template-typescript" "1.2.0"
-    "react" "^18.2.0"
-    "react-dom" "^18.2.0"
-    "react-scripts" "5.0.1"
-    "typescript" "4.7.4"
-    "web-vitals" "2.1.4"
 
 "webidl-conversions@^3.0.0":
   "integrity" "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
