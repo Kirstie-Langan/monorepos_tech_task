@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       Monorepos Tech Task
+        <br/>
         Your count is {count}
         <Button onClick={() => setCount((prev) => ++prev)} />
       </header>
